@@ -28,7 +28,7 @@
 
 @media (max-width: 768px) {
     .main {
-        background-image: url("././images/background_img_main-1.png");
+         background-image: url("././images/background_img_main-1.png");
         height: 412px;
         margin-bottom: 2rem;
     }
@@ -46,10 +46,11 @@
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (min-width: 400px){
     .main {
-        height: 228px !important;
         background-image: url("././images/background_img_main-3.png");
+        height: 228px !important;
+        
         margin-bottom: 2rem;
         width: 480px;
 
