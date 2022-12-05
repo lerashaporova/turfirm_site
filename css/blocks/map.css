@@ -1,0 +1,19 @@
+.map {
+	display: flex;
+	align-items: center;
+	width: 586px;
+	height: 312px;
+margin: 150px auto 30px;
+}
+
+.address {
+	display: flex;
+	justify-content: center;
+}
+
+.ymaps-2-1-79-inner-panes {
+	border-radius: 20px;
+}
+.ymaps-2-1-79-map {
+	border-radius: 20px;
+}
