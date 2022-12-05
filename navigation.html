@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- подключение css стилей -->
+    <link rel="stylesheet" href="./css/blocks/style.css" type="text/css"/>
+    <!-- подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>navigation</title>
+</head>
+<body>
+
+        <!-- шапка сайта -->
+        <header class="header header__page-2 font__style-base font__style-medium">
+            <div class="icon__back"><a href="index.html" class="icon__back-img"></a></div>
+            <div class="container">
+
+            <!-- якорные ссылки -->
+            <nav class="nav header__nav ">
+                <div class="header__logo header__logo-2">
+                    <img src="./images/header_logo.svg" alt="logo" class="header__logo-img">
+              </div>
+
+           <div class="header__phone">
+             <div class="cont__icon cont__icon-phone">
+                <img src="./images/phone_icon.svg" alt="phone icon" class="cont__icons-img ">
+             </div>
+                <div class="form__text-phone">
+                 <a href="tel:+7964000000"  class="font__style-base"> +7 (964) - 000 - 00 - 00</a>
+                </div>
+           </div>
+            </nav>
+            </div>
+        </header>
+        <!-- карта и адрес -->
+        <section class="map__block">
+            <div class="container">
+                <div id="map" class="map">
+
+                </div>
+               <div class="address">
+                <div class="mark__icon">
+                    <img src="./images/icon_ballon.svg" alt="иконка метки">
+                </div>
+                <div class="address__text"> г. Санкт-Петербург, пер. Бухарестская, 54</div>
+               </div>
+            </div>
+
+        </section>
+
+        <footer class="footer footer__navig footer__line footer__color font__style-medium ">
+            <div class="container">
+                <nav class="nav footer__nuv  footer__color">
+                    <div class="footer__logo footer__logo-2">
+                        <img src="./images/footer_logo.svg" alt="logo">
+                    </div>
+                    <div class="nuv__block">
+                        <ul class="nuv__list">
+                            <div class="nuv__item nuv__item-1 ">
+                                <li class=""><a href="index.html" class="nuv__link footer__color">туры</a></li>
+                            </div>
+                            <div class="nuv__item nuv__item-2">
+                                <li class=""><a href="index.html" class="nuv__link footer__color">отзывы</a></li>
+                            </div>
+                            <div class="nuv__item nuv__item-3">
+                                <li class=""><a href="index.html" class="nuv__link footer__color">связь с нами</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                            <div class="social__icon">
+                                <img src="./images/icons_social.svg" alt="иконки соц сетей">
+                            </div>
+                     </nav>
+                </div>
+        </footer>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=6f085de0-c50a-4d72-8506-df92280a40c4&lang=ru_RU">
+	</script>
+    <script src="./js/map.js"></script>
+</body>
+</html>
