@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+
+.container__main {
+
+  width: 1920px;
+  height: 732px;
+  background-clip: border-box;
+  margin-bottom: 15rem;
+}
+
+/* базовые стили для ссылок */
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* добписать стили для ссылок */
+/*
+a:hover {
+
+}
+
+a:active {
+
+} */
+
+li {
+  list-style-type: none;
+}
+
+.title__h2 {
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+  color: #2A4852;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.title__h3 {
+  background: none !important;
+}
+
+.font__style-base {
+  color: #2A4852;
+}
+
+.font__style-regular {
+  font-weight: 400;
+}
+
+.font__style-medium {
+  font-weight: bolder;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.indent__down {
+  margin-bottom: 16rem;
+}
+
+.margin__top-section {
+  margin-top: 16rem;
+}
+
+.button__style {
+  background: #6D98A7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 21px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #F5F5F5;
+  border:none;
+  padding: 14px 24px;
+}
+
+.button__style:hover {
+  transition: 0.4s all;
+  color: #6D98A7;
+  background: #F5F5F5;
+  border: 1px solid #6D98A7;
+}
+
+
+.button__style:active {
+  transition: 0s;
+  color: #6D98A7;
+  font-weight: bolder;
+  background: #F5F5F5;
+  border: 2px solid #6D98A7;
+}
+
+@media (max-width: 768px) {
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .container__main {
+    width: 100%;
+    background-clip: border-box;
+  }
+
+  .indent__down {
+    margin-bottom: 100px;
+  }
+
+  .button__style {
+    font-size: 11px;
+    padding: 7px 15px;
+  }
+
+  .title__h2 {
+    font-size: 20px;
+  }
+
+  .title__h3 {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 460px;
+    margin: 0 auto;
+  }
+
+  .indent__down {
+    margin-bottom: 80px;
+  }
+
+  .title__h2 {
+    font-size: 12px;
+  }
+
+  .title__h3 {
+    font-size: 8px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    height: auto;
+  }
+
+  .button__style {
+    padding: 4px 9px;
+    font-size: 6px;
+  }
+
+}
